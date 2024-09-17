@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TireManagementHost/static/css/main.c1b96837.css",
+    "main.js": "/TireManagementHost/static/js/main.92ec1d9d.js",
+    "static/js/453.c44a0ee9.chunk.js": "/TireManagementHost/static/js/453.c44a0ee9.chunk.js",
+    "static/media/BG4.jpg": "/TireManagementHost/static/media/BG4.cd516f7ade88a2ce50e4.jpg",
+    "static/media/EmployeeHomeBG3.png": "/TireManagementHost/static/media/EmployeeHomeBG3.ccb6232ecb8ce2b494db.png",
+    "static/media/DriverHomeBG.png": "/TireManagementHost/static/media/DriverHomeBG.dd0d2eaddf7d98092a1a.png",
+    "static/media/BG5.png": "/TireManagementHost/static/media/BG5.368dfa9c826719f808d5.png",
+    "static/media/BG2.png": "/TireManagementHost/static/media/BG2.f81ac91403e056a3448d.png",
+    "static/media/tire_management_system.jpeg": "/TireManagementHost/static/media/tire_management_system.ac62496fd0f181b86941.jpeg",
+    "index.html": "/TireManagementHost/index.html",
+    "main.c1b96837.css.map": "/TireManagementHost/static/css/main.c1b96837.css.map",
+    "main.92ec1d9d.js.map": "/TireManagementHost/static/js/main.92ec1d9d.js.map",
+    "453.c44a0ee9.chunk.js.map": "/TireManagementHost/static/js/453.c44a0ee9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b96837.css",
+    "static/js/main.92ec1d9d.js"
+  ]
+}
