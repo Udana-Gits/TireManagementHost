@@ -1,0 +1,157 @@
+.searchcontainer1{
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.Driverlabel{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tirenumberfield1{
+    width: 324px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #ffffff;
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px;
+}
+
+.tirenumberfield1::placeholder{
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+    text-align: center;
+}
+
+.searchbutton{
+    width: 234px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #021E45 0%, #054AAB 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+  /* Graph Container */
+.chart-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* General Styles for Charts */
+.chartjs-render-monitor {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Responsive Chart Container */
+.chart-container canvas {
+  width: 100% !important;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Customizing Bar Colors */
+.bar {
+  background-color: rgba(255, 99, 132, 0.2) !important;
+  border-color: rgba(255, 99, 132, 1) !important;
+  border-width: 1 !important;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 45%;
+}
+.inputbox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tire-perform-bg::before {
+  content: "";
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/images/components/BG4.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.searchbox1 {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  border-radius: 15px;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  z-index: 1;
+  /* Ensure it's on top of any background layers */
+  flex-wrap: wrap;
+}
+
+.searchbox1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+  display: grid;
+}
+
+.searchbox1>* {
+  position: relative;
+  z-index: 1;
+}
+
+.gray-container{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  border-radius: 15px;
+  margin-bottom: 60px;
+  opacity: 0.8;
+  background-color: #E9E9E9;
+}
