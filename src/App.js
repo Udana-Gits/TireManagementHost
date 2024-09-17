@@ -9,7 +9,7 @@ import Vehicle from './components/auth/Vehicle';
 import Administrative from './components/auth/Administrative';
 import DriverMain from './components/auth/DriverMain';
 import EmployeeMain from './components/auth/EmployeeMain';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import Enterdata from './components/auth/Enterdata';
 import ProfileEdit from './components/auth/ProfileEdit' ;
 import TireData from './components/auth/TireData' ;
